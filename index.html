@@ -24,8 +24,6 @@ w\:* {behavior:url(#default#VML);}
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Print</w:View>
-  <w:Zoom>70</w:Zoom>
-  <w:SpellingState>Clean</w:SpellingState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:ValidateAgainstSchemas/>
@@ -264,6 +262,8 @@ w\:* {behavior:url(#default#VML);}
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="HTML Variable"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="annotation subject"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="No List"/>
@@ -351,6 +351,8 @@ w\:* {behavior:url(#default#VML);}
    Name="Table Subtle 1"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Table Web 2"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
@@ -673,19 +675,6 @@ w\:* {behavior:url(#default#VML);}
 	mso-generic-font-family:auto;
 	mso-font-pitch:variable;
 	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
-@font-face
-	{font-family:华文楷体;
-	panose-1:2 1 6 0 4 1 1 1 1 1;
-	mso-font-charset:134;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:647 135200768 16 0 262303 0;}
-@font-face
-	{font-family:"\@华文楷体";
-	mso-font-charset:134;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:647 135200768 16 0 262303 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -753,6 +742,8 @@ span.1
 	mso-ansi-font-size:22.0pt;
 	mso-bidi-font-size:22.0pt;
 	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
 	mso-hansi-font-family:宋体;
 	mso-bidi-font-family:宋体;
 	mso-font-kerning:22.0pt;
@@ -778,6 +769,8 @@ span.a
 	mso-ansi-font-size:9.0pt;
 	mso-bidi-font-size:9.0pt;
 	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
 	mso-hansi-font-family:宋体;
 	mso-bidi-font-family:宋体;}
 span.a0
@@ -789,6 +782,8 @@ span.a0
 	mso-ansi-font-size:9.0pt;
 	mso-bidi-font-size:9.0pt;
 	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
 	mso-hansi-font-family:宋体;
 	mso-bidi-font-family:宋体;}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
@@ -803,19 +798,6 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	font-family:等线;
 	mso-hansi-font-family:宋体;
 	mso-bidi-font-family:宋体;}
-p.Heading1, li.Heading1, div.Heading1
-	{mso-style-name:"Heading 1";
-	mso-style-unhide:no;
-	mso-style-link:"Heading 1 Char";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	mso-pagination:widow-orphan;
-	font-size:10.5pt;
-	font-family:等线;
-	mso-hansi-font-family:宋体;
-	mso-bidi-font-family:宋体;}
 span.Heading1Char
 	{mso-style-name:"Heading 1 Char";
 	mso-style-priority:9;
@@ -827,10 +809,10 @@ span.Heading1Char
 	mso-fareast-font-family:宋体;
 	mso-hansi-font-family:宋体;
 	font-weight:bold;}
-p.Header, li.Header, div.Header
-	{mso-style-name:Header;
+p.Heading1, li.Heading1, div.Heading1
+	{mso-style-name:"Heading 1";
 	mso-style-unhide:no;
-	mso-style-link:"Header Char";
+	mso-style-link:"Heading 1 Char";
 	margin:0cm;
 	margin-bottom:.0001pt;
 	text-align:justify;
@@ -853,10 +835,10 @@ span.HeaderChar
 	mso-fareast-font-family:宋体;
 	mso-hansi-font-family:宋体;
 	mso-bidi-font-family:宋体;}
-p.Footer, li.Footer, div.Footer
-	{mso-style-name:Footer;
+p.Header, li.Header, div.Header
+	{mso-style-name:Header;
 	mso-style-unhide:no;
-	mso-style-link:"Footer Char";
+	mso-style-link:"Header Char";
 	margin:0cm;
 	margin-bottom:.0001pt;
 	text-align:justify;
@@ -877,6 +859,19 @@ span.FooterChar
 	font-family:宋体;
 	mso-ascii-font-family:宋体;
 	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.Footer, li.Footer, div.Footer
+	{mso-style-name:Footer;
+	mso-style-unhide:no;
+	mso-style-link:"Footer Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:等线;
 	mso-hansi-font-family:宋体;
 	mso-bidi-font-family:宋体;}
 .MsoChpDefault
@@ -973,30 +968,17 @@ style='font-size:36.0pt;font-family:"Courier New"'>Sun Linjin (Sam)</span></b></
   <td width=597 style='width:447.7pt;padding:0cm 5.4pt 0cm 5.4pt;height:368.1pt'>
   <p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
   style='font-size:36.0pt;font-family:"Courier New";color:black'>Hi</span><span
-  lang=EN-US style='font-family:"Courier New";color:black'>,</span><span
-  lang=EN-US style='font-size:8.0pt;font-family:"Courier New"'><o:p></o:p></span></p>
-  <p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
-  style='font-size:14.0pt;font-family:"Courier New";color:black'>My name is <b>Sun
-  Linjin</b></span><b><span style='font-size:14.0pt;mso-ascii-font-family:"Courier New";
-  mso-hansi-font-family:"Courier New";mso-bidi-font-family:"Courier New";
-  color:black'>（</span></b><b><span style='font-size:14.0pt;font-family:华文楷体;
-  mso-ascii-font-family:"Courier New";mso-hansi-font-family:"Courier New";
-  mso-bidi-font-family:"Courier New";color:black'>孙林晋</span></b><b><span
-  style='font-size:14.0pt;mso-ascii-font-family:"Courier New";mso-hansi-font-family:
-  "Courier New";mso-bidi-font-family:"Courier New";color:black'>）</span></b><span
-  lang=EN-US style='font-size:14.0pt;font-family:"Courier New";color:black'>.</span><span
-  lang=EN-US style='font-family:"Courier New"'><o:p></o:p></span></p>
-  <p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
-  style='font-size:14.0pt;font-family:"Courier New";color:black'>Now, I'm doing
+  lang=EN-US style='font-family:"Courier New";color:black'>, </span><span
+  lang=EN-US style='font-size:14.0pt;font-family:"Courier New";color:black'>I'm
   a software engineer job.</span><span lang=EN-US style='font-family:"Courier New"'><o:p></o:p></span></p>
   <p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
   style='font-size:14.0pt;font-family:"Courier New";color:black'>I love
   technology, And I like to learn new things.</span><span lang=EN-US
   style='font-family:"Courier New"'><o:p></o:p></span></p>
   <p class=MsoNormal style='margin-left:21.0pt'><span lang=EN-US
-  style='font-size:14.0pt;font-family:"Courier New";color:black'>I am familiar
-  with C programming, Linux shell programming (bash) &amp; Common Linux
-  Operating System especially CentOS, Git &amp; GitHub, Jenkins etc.</span></p>
+  style='font-size:14.0pt;font-family:"Courier New";color:black'>I am familiar with
+  C programming, Linux shell programming (bash) &amp; Common Linux Operating
+  System especially CentOS, Git &amp; GitHub, Jenkins Yocto Docker etc.</span></p>
   </td>
  </tr>
 </table>
