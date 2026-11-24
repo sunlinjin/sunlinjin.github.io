@@ -20,13 +20,13 @@ const CONFIG = {
       name: "项目名称 1",
       desc: "基于 STM32 + FreeRTOS 的电机控制固件，实现高精度 PID 与故障保护。",
       tags: ["STM32", "FreeRTOS", "C", "PID"],
-      link: "https://github.com/你的用户名/repo1"
+      link: "https://github.com/sunlinjin/repo1"
     },
     {
       name: "项目名称 2",
       desc: "Linux 下的设备驱动与 Bash 自动化构建/测试脚本。",
       tags: ["Linux", "Driver", "Bash", "C"],
-      link: "https://github.com/你的用户名/repo2"
+      link: "https://github.com/sunlinjin/repo2"
     }
   ],
 
@@ -40,9 +40,9 @@ const CONFIG = {
   ],
 
   contact: {
-    email: "your.email@example.com",
-    github: "https://github.com/你的用户名",
-    linkedin: "https://linkedin.com/in/你的链接",
-    location: "你的城市"
+    email: "sun.linjin@163.com",
+    github: "https://github.com/sunlinjin",
+    linkedin: "https://linkedin.com/in/sunlinjin",
+    location: "Hangzhou, China"
   }
 };
